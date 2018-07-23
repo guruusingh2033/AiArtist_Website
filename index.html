@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+    crossorigin="anonymous">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <title>Ai Artist</title>
+</head>
+
+<body>
+  <!-- Nav start here -->
+  <div id="main">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top ">
+      <a class="navbar-brand" href="#">
+        <img class="img-fluid" src="images/logo-dark.png" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsExample07">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#" data-scroll="home">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-scroll="about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-scroll="portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-scroll="contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <span class="open" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#" data-scroll="home">Home</a>
+        <a href="#" data-scroll="about">About</a>
+        <a href="#" data-scroll="portfolio">Portfolio</a>
+        <a href="#" data-scroll="contact">Contact</a>
+      </div>
+    </nav>
+
+    <!-- Nav end here -->
+
+    <!-- Banner start here  -->
+
+    <div class="jumbotron">
+      <div class="container">
+        <section class="home-sect" id="home" data-anchor="home">
+          <div class="container">
+            <figcaption class="caption">
+              <h1>AiArtist</h1>
+              <p class="black-text">An Artificial Intelegence artist to illustrate your stories</p>
+            </figcaption>
+          </div>
+        </section>
+      </div>
+      <div class="container">
+        <section class="about-sec border-radius" id="about" data-anchor="about">
+          <div class="container">
+            <div class="about-logo">
+              <img class="img-fluid" src="images/logo-head.png" />
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="about-widget">
+                  <div class="about-icon">
+                    <img class="img-fluid" src="images/file-2.png" />
+                  </div>
+                  <h6>Summarize</h6>
+                  <p>Whether you are a seasoned writer or a casual blogger, our AI summarizes and understands the content that
+                    you have written.</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="about-widget">
+                  <div class="about-icon">
+                    <img class="img-fluid" src="images/picture-2.png" />
+                  </div>
+                  <h6>Illustrate</h6>
+                  <p>We believe a great story needs equally great illustrations to bring your vision into life. Our AI generates
+                    illustrations all on its own making your story more compelling.</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="about-widget">
+                  <div class="about-icon">
+                    <img class="img-fluid" src="images/paint-palette-2.png" />
+                  </div>
+                  <h6>Stylize</h6>
+                  <p>Our AI is no ordinary artist. Tell it to illustrate your story with your favourite artist’s style and it
+                    learns to do so.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="container">
+        <section class="gallary background-black" id="portfolio" data-anchor="portfolio">
+          <h2 class="color-white">Gallery</h2>
+          <hr>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-12 right-padding">
+              <div class="gallary-img">
+                <img class="img-fluid" src="images/1.jpg" />
+              </div>
+              <div class="gallary-img">
+                <img class="img-fluid" src="images/3.jpg" />
+              </div>
+              <div class="gallary-img">
+                <img class="img-fluid" src="images/5.jpg" />
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-12 right-padding">
+              <div class="gallary-img">
+                <img class="img-fluid" src="images/7.jpg" />
+              </div>
+              <div class="gallary-img">
+                <img class="img-fluid" src="images/13.jpg" />
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-12 right-padding">
+              <div class="gallary-img">
+                <img class="img-fluid" src="images/2.jpg" />
+              </div>
+              <div class="gallary-img">
+                <img class="img-fluid" src="images/4.jpg" />
+              </div>
+              <div class="gallary-img">
+                <img class="img-fluid" src="images/6.jpg" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="container">
+        <section class="contact top-border-radius" id="contact" data-anchor="contact">
+          <div class="container">
+            <h2>Contact Us</h2>
+            <hr>
+            <div class="social">
+              <a href="https://www.facebook.com/aiartist.io/" target="_blank">
+                <span>Facebook</span>
+                <img src="images/facebook.png" />
+              </a>
+              <a href="https://m.me/aiartist.io" target="_blank">
+                <span>Facebook Messenger</span>
+                <img src="images/facebook-messanger.png" />
+              </a>
+              <a href="https://www.linkedin.com/company/aiartist/" target="_blank">
+                <span>Linkedin</span>
+                <img src="images/linkedin.png" />
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- Banner end here  -->
+
+    <!-- Footer start here  -->
+    <footer class="panel-footer">
+      <div class="container">
+        <p>© 2018 AiArtist. All rights reserved. </p>
+      </div>
+    </footer>
+  </div>
+  <!-- Footer end here  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script>
+    $('nav a').on('click', function () {
+
+      var scrollAnchor = $(this).attr('data-scroll'),
+        scrollPoint = $('section[data-anchor="' + scrollAnchor + '"]').offset().top - 28;
+      $('body,html').animate({
+        scrollTop: scrollPoint
+      }, 500);
+      return false;
+    })
+    $(window).scroll(function () {
+    });
+    $(window).scroll(function () {
+      if ($(window).scrollTop() >= 100) {
+        $('nav').addClass('fixed');
+      } else {
+        $('nav').removeClass('fixed');
+      }
+    });
+  </script>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+  <script>
+    $(document).ready(function () {
+      $('nav li a').on('click', function () {
+        $('nav li a.active').removeClass('active');
+        $(this).addClass('active');
+      });
+    });
+  </script>
+</body>
+
+</html>
